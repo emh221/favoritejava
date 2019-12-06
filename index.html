@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Favorite Things Array Practice</title>
+</head>
+<body>
+  <div class="container">
+    <div class="text-center">
+      <h2>Enter three of your favorite things below to make a list!</h2>
+      <form id="favoritethings" >
+        <div class="form-group">
+          <label for="favoritecat">Favorite Cat:</label>
+          <input type="text" class="form-control" id="catinput">
+        </div>
+        <div class="form-group">
+          <label for="dog">Favorite Dog:</label>
+          <input type="text" id="doginput" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="person">My Favorite Person:</label>
+          <input type="text" id="personinput" class="form-control">
+        </div>
+        <button type="submit" name="btn btn-success">List My Favorite Things!</button>
+      </form>
+      <h3>Favorite Cats</h3>
+      <ul id="catlist">
+      </ul>
+      <h3>Favorite Dogs</h3>
+      <ul id="doglist">
+
+      </ul>
+      <h3>Favorite People</h3>
+      <ul id="peoplelist">
+
+      </ul>
+    </div>
+  </div>
+</body>
